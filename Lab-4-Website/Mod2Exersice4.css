@@ -1,0 +1,68 @@
+body {
+    
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 20px;
+}
+.sidebar {
+    float: left;
+    width: 25%;
+    left: 0%;
+    border-style: hidden;
+    border-width: 1px;
+    background: #FF84E8;
+}
+.header{
+    font-size: 30px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    background-color: #FFA9E7;
+    
+}
+.image {
+    display: flex;
+    background: #FF84E8;
+}
+.Personal {
+    background-color: #FFA9E7;
+    background-size: cover
+}
+.phone-email {
+    text-align: justify;
+}
+.skill {
+    background-color: #FFA9E7;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+.footer {
+    display: inline-block;
+    width: 1152px;
+    position:relative;
+    bottom: 0;
+    text-align: center;
+    background-color: #FFA9E7;
+}
+.right-side {
+    border: 1px solid #7F2CCB;
+    padding: 10px 5px 4px 20px;
+    margin: 20px;
+}
+.Experience {
+    border-bottom: 2px solid #2A2D43;
+}
+.Receptionist {
+    border-bottom: 2px solid #2A2D43;
+}
+.Education {
+    border-bottom: 2px solid #2A2D43;
+}
