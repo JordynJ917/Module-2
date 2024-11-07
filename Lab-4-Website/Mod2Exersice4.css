@@ -1,5 +1,9 @@
+@media screen {
 body {
-    
+min-width: 0px
+font-size: 15px;
+max-width: 1919.98px;
+}
 }
 h2 {
     font-size: 28px;
@@ -10,6 +14,7 @@ h3 {
 .sidebar {
     float: left;
     width: 25%;
+    height: 100%;
     left: 0%;
     border-style: hidden;
     border-width: 1px;
@@ -17,7 +22,7 @@ h3 {
 }
 .header{
     font-size: 30px;
-    padding: auto;
+    padding:2%;
     margin: auto;
     text-align: center;
     background-color: #FFA9E7;
@@ -46,15 +51,17 @@ table {
 }
 .footer {
     display: inline-block;
-    width: 1152px;
+    width: 100%;
     position:relative;
     bottom: 0;
     text-align: center;
     background-color: #FFA9E7;
+    border: 3px solid #FF84E8;
 }
 .right-side {
+    height: 70%;
     border: 1px solid #7F2CCB;
-    padding: 10px 5px 4px 20px;
+    padding: 10px 5px 4px 320px;
     margin: 20px;
 }
 .Experience {
