@@ -1,10 +1,15 @@
-@media screen {
-body {
-min-width: 0px
+@media screen and (max-width: 600px) {
+.sidebar {
 font-size: 15px;
-max-width: 1919.98px;
+color: #414361;
 }
 }
+@media screen and (max-width: 600px) {
+.right-side {
+font-size: 15px;
+}
+}
+
 h2 {
     font-size: 28px;
 }
@@ -19,6 +24,7 @@ h3 {
     border-style: hidden;
     border-width: 1px;
     background: #FF84E8;
+    text-align: center;
 }
 .header{
     font-size: 30px;
@@ -29,16 +35,15 @@ h3 {
     
 }
 .image {
-    display: flex;
+    display:inline;
     background: #FF84E8;
 }
 .Personal {
     background-color: #FFA9E7;
     background-size: cover
+    color: #41
 }
-.phone-email {
-    text-align: justify;
-}
+
 .skill {
     background-color: #FFA9E7;
     background-size: auto;
@@ -59,9 +64,10 @@ table {
     border: 3px solid #FF84E8;
 }
 .right-side {
+    float: flex;
     height: 70%;
     border: 1px solid #7F2CCB;
-    padding: 10px 5px 4px 320px;
+    padding: 10px 5px 4px 25%;
     margin: 20px;
 }
 .Experience {
